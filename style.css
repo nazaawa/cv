@@ -1,7 +1,17 @@
+#bloc_page
+{
+  margin-left: 20px;
+  margin-right: 20px;
+}
 header {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  margin-left: 15px;
+}
+.titre 
+{
+  color: red
 }
 
 #title {
@@ -13,15 +23,16 @@ nav ul {
 }
 nav li {
   margin-right: 15px;
+  font-size:10px;
 }
 nav a {
   font-size: 1.3em;
   text-decoration: none;
 }
-section {
-  margin: 30px;
-}
+
 #article1 {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   height: 250px;
   justify-content: space-around;
   background-color: lightblue;
@@ -35,6 +46,8 @@ section {
   height: 200px;
 }
 #article2 {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
   height: 250px;
   justify-content: space-around;
   background-color: whitesmoke;
@@ -42,4 +55,7 @@ section {
   padding: 10px;
   display: flex;
   text-align: left;
+}
+#identification li {
+  list-style: none;
 }

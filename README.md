@@ -1,2 +1,2 @@
 # Mon cv
-ceci est juste mon petit 
+ceci est juste mon petit cv 
