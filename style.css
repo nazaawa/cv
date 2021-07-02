@@ -1,7 +1,18 @@
 #bloc_page
 {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 75px;
+  margin-right: 70px;
+  position: relative;
+}
+.name h1{
+  font-size: 35px;
+  font-family: 'Trebuchet MS';
+
+}
+.name p{
+  font-size: 16px;
+  position: relative;
+  top: -6vh;
 }
 header {
   display: flex;
@@ -11,7 +22,7 @@ header {
 }
 .titre 
 {
-  color: red
+  color: green
 }
 
 #title {
@@ -21,6 +32,10 @@ nav ul {
   list-style: none;
   display: flex;
 }
+nav ul li:hover{
+  border-bottom: 2px solid green;
+
+}
 nav li {
   margin-right: 15px;
   font-size:10px;
@@ -29,13 +44,21 @@ nav a {
   font-size: 1.3em;
   text-decoration: none;
 }
-
+button{
+  border: none;   
+  border-bottom: 1px solid silver;
+  padding: 10px;
+  box-shadow: 0px 2px 0 solid silver;
+}
+span{
+  color: green;
+}
 #article1 {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   height: 250px;
   justify-content: space-around;
-  background-color: lightblue;
+  background-color: rgb(118, 205, 245);
   align-items: center;
   padding: 10px;
   display: flex;
@@ -43,7 +66,10 @@ nav a {
 }
 #profil img {
   width: 300px;
-  height: 200px;
+  height: 250px;
+  position: absolute;
+  top: 20vh;
+  left: 95px;
 }
 #article2 {
   border-bottom-right-radius: 20px;
