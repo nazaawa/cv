@@ -1,30 +1,43 @@
 body {
-  background-color: rgb(16, 16, 27);
+
+  margin-right: 50px;
+  margin-left:50px;
+  color:white
 }
+
+
 header {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   margin-left: 15px;
 }
+span {
+  color: green;
+}
+#johnny {
+  color:black;
+  margin-left:50px
+}
 
 nav ul {
   list-style: none;
   display: flex;
 }
-nav ul li:hover {
-  border-bottom: 2px solid green;
+
+nav ul li {
+  margin-right: 10px;
 }
-nav li {
-  margin-right: 15px;
-  font-size: 10px;
+li :hover {
+  border-bottom: 1px solid black;
+
 }
 nav a {
   font-size: 1.3em;
   text-decoration: none;
   color: white;
 }
-#profil img {
+ img {
   width: 150px;
   height: 150px;
 
@@ -37,22 +50,43 @@ nav a {
   
 }
 
-section {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
-}
+
 #article1 {
-  color: white;
+  height: 250px;
+  justify-content: space-around;
+  background-color: rgb(20, 41, 48);
+  align-items: center;
+
+  display: flex;
+
   text-align: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
-article , #photo {
-  width :50px;
-  height :50px;
+ img {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  border: 15px solid black;
 }
 
-
-h1, p , ul
+#profile 
 {
-  color : white;
+border: 10px solid white;
+border-radius:100px;
+}
+#article2 {
+  height: 250px;
+  justify-content: space-around;
+  background-color: rgb(158, 147, 147);
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  text-align: left;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+#identification  li {
+ list-style: none;
 }
